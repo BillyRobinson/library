@@ -7,8 +7,22 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="search-container">
-        div.
+    <div class="form-container">
+      <form action=" " method="post">
+        <div class="title">
+        <label for="input-book-title">Book Title:</label>
+        <input type="text" name="BookTitle" id="input-book-title" class="input-book">
+      </div>
+      <div class="author">
+        <label for="input-author">Author:</label>
+        <input type="text" name="Author" id="input-author" class="input-book">
+      </div>
+      <div class="read">
+        <label for="input-book-read">Read</label>
+        <input type="checkbox" name="BookRead" id="input-book-read">
+      </div>
+      </form>
+        <button type="submit" id="input-submit">Add Book</button>
     </div>
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js"></script>
